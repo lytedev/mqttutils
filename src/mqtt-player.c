@@ -463,13 +463,9 @@ int main(int argc, char **argv) {
 	}while( config.repeat && feof(config.fd) );
 
 	mosquitto_disconnect(config.mosq);
-
 	mosquitto_loop_stop(config.mosq, false);
-
 	mosquitto_destroy(config.mosq);
-
 	mosquitto_lib_cleanup();
-
 	fclose(config.fd);
 
 	return 0;

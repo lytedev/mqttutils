@@ -18,7 +18,7 @@
 void log_buf(void *buf, size_t length) {
   int i;
   uint8_t *buff = (uint8_t *)buf;
-  
+
   for( i = 0; i < length; i++ ) {
     fprintf(LOG_FD, "%02x ", buff[i]);
   }
