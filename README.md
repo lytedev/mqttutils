@@ -3,6 +3,18 @@
 A few simple utilities for recording and playing back MQTT messages.
 
 
+## Disclaimer
+
+This project is a fork of https://github.com/der-b/mqttutils which seems to use
+a dated version of autotools. While I've tried to update this readme to enable
+you to build it, it is probably missing some steps. Ultimately, the autotools
+setup in the repository needs to be updated and the repository needs a lot of
+cleanup from the build/configure artifacts that existed in the original
+repository.
+
+*Enjoy!*
+
+
 ## Dependencies
 
 **NOTE**: WIP
